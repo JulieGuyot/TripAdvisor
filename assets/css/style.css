@@ -1,0 +1,488 @@
+/*COMMON RULES*/
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 950;
+  font-family: "Trip Sans Medium";
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-family: "Trip Sans Medium";
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+  padding: 15px 0px;
+}
+
+h3 {
+  font-family: "Trip Sans Medium";
+  font-weight: bold;
+  color: black;
+  font-size: 26px;
+  padding: 15px 0px 5px 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  align-items: center;
+  font-size: 18px;
+  line-height: 20px;
+}
+/*HEADER */
+
+.en-tete {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  font-family: "Trip Sans Regular";
+}
+.logo {
+  width: 183px;
+}
+
+.connexion {
+  background-color: black;
+  color: white;
+  padding: 7px 7px;
+  border: solid black;
+  border-radius: 10px;
+}
+
+.connexion:hover {
+  background-color: rgb(0, 0, 0, 0.6);
+  cursor: pointer;
+  border-color: grey;
+}
+
+/*BLOC SOUS HEADER*/
+
+.premier-mot {
+  color: #ff5d5d;
+}
+.menu ul {
+  display: flex;
+}
+
+.menu .premiers {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Trip Sans Regular";
+  font-weight: bold;
+  font-size: 14px;
+  box-sizing: border-box;
+  flex: 1;
+}
+.menu .suivants {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Trip Sans Regular";
+  font-weight: bold;
+  font-size: 14px;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+.menu ul li {
+  display: flex;
+  flex: 1;
+  font-size: 16px;
+  margin: 2px 5px;
+  align-items: center;
+  justify-content: space-between;
+  border: solid thin black;
+  border-radius: 7px;
+  padding: 10px 20px;
+}
+.menu .hidden {
+  display: none;
+}
+
+.menu li:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+/*IMAGES */
+.photos {
+  height: 400px;
+  widows: 480px;
+  margin-top: 30px;
+  display: flex;
+  object-fit: cover;
+}
+
+.photos .photo1 {
+  height: 100%;
+  flex: 1.8;
+}
+
+.photos .photo1 .caption1 {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.photos .photo23 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 5px;
+}
+.photos .photo23 .caption2 {
+  width: 100%;
+  height: 50%;
+  border-top-right-radius: 15px;
+}
+.photos .photo23 .caption3 {
+  width: 100%;
+  height: calc(50% - 5px);
+  margin-top: 5px;
+  border-bottom-right-radius: 15px;
+}
+
+.situation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: "Trip Sans Regular";
+  margin-top: 10px;
+}
+.situation ul {
+  display: flex;
+}
+.situation ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*COLONNES*/
+
+.colonnes {
+  margin-top: 60px;
+  display: flex;
+}
+
+.colonnes .colonne1 {
+  text-align: justify;
+  width: 50%;
+}
+
+.colonnes .colonne2 {
+  width: calc(50% - 80px);
+  margin-left: 80px;
+}
+
+.colonne1 p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 20px;
+}
+
+.colonne2 .col2part1 {
+  background-color: #ff5d5d;
+  border: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 30px 30px;
+  line-height: 20px;
+}
+
+.colonne2 h3 {
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+.colonne2 p {
+  font-family: "Trip Sans Regular";
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+.colonne2 .bouton {
+  font-family: "Trip Sans Regular";
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: solid black;
+  border-radius: 10px;
+  padding: 7px 5px;
+}
+
+.carte {
+  width: 100%;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+/*CONSEILS DE VOYAGE*/
+
+section {
+  margin-top: 30px;
+}
+
+.titrefooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titrefooter .trait1 {
+  flex: 1;
+  border-top: solid black 2px;
+  margin-top: 28px;
+}
+
+.titrefooter .trait2 {
+  flex: 1;
+  border-top: solid black 2px;
+  margin-top: 28px;
+}
+
+.afficher {
+  text-align: right;
+  font-family: "Trip Sans Medium";
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.afficher:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.annotation .deuxpremiers {
+  display: flex;
+  width: 50%;
+}
+.annotation .deuxderniers {
+  display: flex;
+  width: 50%;
+}
+
+.annotation {
+  display: flex;
+}
+
+.annotation li {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin: 2px 5px;
+  font-family: "Trip Sans Regular";
+  font-size: 17px;
+  border: solid grey thin;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+
+.photo1,
+.photo2,
+.photo3,
+.photo4 {
+  width: 50px;
+}
+
+/*IMMANQUABLE A PARIS*/
+
+.titreImmanquable {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.titreImmanquable .trait1 {
+  flex: 1;
+  border-top: solid black 2px;
+  margin-top: 28px;
+}
+
+.titreImmanquable .trait2 {
+  flex: 1;
+  border-top: solid black 2px;
+  margin-top: 28px;
+}
+
+.seDivertir {
+  display: flex;
+  margin-top: 30px;
+}
+
+.seDivertir .column1 {
+  flex: 1;
+  padding: 20px 20px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.seDivertir .column2 {
+  flex: 4;
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+  font-family: "Trip Sans Regular";
+}
+
+.seDivertir .column2 > div {
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  object-position: center;
+  line-height: 20px;
+}
+
+.seDivertir .column2 > div > img {
+  height: 200px;
+}
+.seDivertir .column2 .element {
+  position: relative;
+}
+
+.seDivertir .column2 .element .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  margin: 10px;
+  font-size: 23px;
+  top: 0;
+  right: 0;
+}
+
+.seDivertir .column2 .element .circle:hover {
+  color: red;
+}
+.seDivertir .column2 .monument {
+  font-family: "Trip Sans Medium";
+  margin-top: 10px;
+}
+.seDivertir .column2 .monument:hover {
+  text-decoration: underline;
+}
+
+.seDivertir .column2 .avis > div {
+  width: 12px;
+  height: 12px;
+  background-color: #00aa6c;
+  border-radius: 50%;
+  margin: 1px 1px;
+}
+.seDivertir .column2 .avis {
+  display: flex;
+  font-size: 11px;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 1328px) {
+  .menu ul {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .menu .hidden {
+    display: flex;
+  }
+  h1 {
+    font-size: 54px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+  .photos .photo1 .caption1 {
+    object-fit: cover;
+  }
+  .photos .photo23 .caption2 {
+    object-fit: cover;
+  }
+  .photos .photo23 .caption3 {
+    object-fit: cover;
+    /* height: 100%; */
+  }
+  .colonnes {
+    display: flex;
+    flex-direction: column;
+  }
+  .colonnes .colonne1 {
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  .colonnes .colonne1 p,
+  h2 {
+    padding: 20px 20px;
+  }
+  .colonnes .colonne2 {
+    width: calc(100% - 20px);
+    display: flex;
+    margin-left: 0;
+    padding: 10px 10px;
+  }
+  .colonnes .colonne2 .col2part1 {
+    text-align: center;
+    line-height: 25px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0;
+  }
+  .carte {
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0;
+    height: 100%;
+    object-fit: cover;
+  }
+  .annotation {
+    flex-wrap: wrap;
+  }
+
+  .annotation .deuxpremiers,
+  .annotation .deuxderniers {
+    width: 100%;
+  }
+  header .en-tete nav span {
+    display: none;
+  }
+  header .en-tete nav i {
+    margin: 20px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  header .en-tete nav {
+    display: none;
+  }
+  .logo {
+    margin: 0px auto;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  .photos .photo23 .caption2,
+  .caption3 {
+    display: none;
+  }
+  .photos .photo23 {
+    flex: 0;
+    margin: 0px;
+  }
+  .photos .photo1 .caption1 {
+    border-radius: 15px;
+  }
+}
